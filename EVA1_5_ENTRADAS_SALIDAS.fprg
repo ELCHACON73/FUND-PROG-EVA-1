@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-08 08:12:10 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwMjEzOzIwMjMtMDktMDg7MDc6NTY6MTEgcC4gbS47Mjg0MQ=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwMjEzOzIwMjMtMDktMDg7MDg6MTI6MTAgcC4gbS47MTsyOTQx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Marca" type="String" array="False" size=""/>
+            <declare name="Modelo" type="String" array="False" size=""/>
+            <declare name="A&#241;o" type="Integer" array="False" size=""/>
+            <declare name="Precio" type="Real" array="False" size=""/>
+            <output expression="&quot;Introduce la marca del vehiculo: &quot;" newline="True"/>
+            <input variable="Marca"/>
+            <output expression="&quot;Introduce el modelo del vehiculo: &quot;" newline="True"/>
+            <input variable="Modelo"/>
+            <output expression="&quot;Introduce el A&#241;o del vehiculo: &quot;" newline="True"/>
+            <input variable="A&#241;o"/>
+            <output expression="&quot;Introduce el precio del vehiculo: &quot;" newline="True"/>
+            <input variable="Precio"/>
+            <output expression="&quot;El vehiculo es: &quot; &amp;Marca" newline="True"/>
+            <output expression="&quot;El vehiculo es modelo: &quot; &amp;Modelo" newline="True"/>
+            <output expression="&quot;El vehiculo es a&#241;o: &quot; &amp;A&#241;o" newline="True"/>
+            <output expression="&quot;El vehiculo tiene un precio de: &quot; &amp;Precio" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
